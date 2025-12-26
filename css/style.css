@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+/* LOGIN */
+.login-box {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background: #2c3e50;
+  color: white;
+  border: none;
+}
+
+#error { color: red; }
+
+/* DASHBOARD */
+.container { display: flex; }
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #2c3e50;
+  color: white;
+}
+
+.sidebar h2 { text-align: center; padding: 15px; }
+
+.sidebar ul { list-style: none; padding: 0; }
+
+.sidebar li {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.sidebar li:hover { background: #34495e; }
+
+.content { padding: 20px; width: 100%; }
+
+.top-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.top-controls input {
+  width: 60%;
+  padding: 8px;
+}
+
+.stats { display: flex; margin-bottom: 10px; }
+
+.card {
+  background: white;
+  padding: 15px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+table, th, td { border: 1px solid #ccc; }
+
+th, td { padding: 10px; text-align: center; }
+
+button {
+  padding: 5px 10px;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  margin: 2px;
+}
+
+button:hover { background: #1a252f; }
+
+/* REPORT CHART */
+.chart {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.bar {
+  width: 50px;
+}

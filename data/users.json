@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "John Doe", "role": "Admin", "status": "Active" },
+  { "id": 2, "name": "Sara Smith", "role": "User", "status": "Inactive" },
+  { "id": 3, "name": "David Lee", "role": "User", "status": "Active" }
+]

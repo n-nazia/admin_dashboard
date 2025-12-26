@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="sidebar">
+    <h2>Admin</h2>
+    <ul>
+      <li onclick="showUsers()">Users</li>
+      <li onclick="showReports()">Reports</li>
+      <li onclick="logout()">Logout</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h1 id="pageTitle">Users</h1>
+
+    <div class="top-controls">
+      <input type="text" id="searchInput" placeholder="Search user..." onkeyup="searchUser()">
+      <button onclick="showAddUserForm()">Add User</button>
+    </div>
+
+    <div class="stats">
+      <div class="card">
+        <h3>Total Users</h3>
+        <p id="totalUsers">0</p>
+      </div>
+    </div>
+
+    <div id="contentArea"></div>
+  </div>
+
+</div>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>
